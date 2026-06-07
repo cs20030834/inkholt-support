@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkholt — サポート</title>
+<style>
+  :root { --paper:#faf6ec; --ink:#1f1d1a; --warm:#b7522e; --muted:#6b6862; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple SD Gothic Neo","Hiragino Sans","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+         -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:680px; margin:0 auto; padding:40px 24px 96px; }
+  .langbar { display:flex; flex-wrap:wrap; gap:14px; font-size:14px; margin-bottom:30px; padding-bottom:14px; border-bottom:1px solid #ece6d8; }
+  .langbar a { color:var(--muted); text-decoration:none; }
+  .langbar a.active { color:var(--warm); font-weight:600; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  h1 { font-size:28px; margin:0; letter-spacing:-0.01em; }
+  .tag { color:var(--muted); margin:0 0 36px; font-size:17px; }
+  h2 { font-size:19px; margin:38px 0 12px; }
+  a { color:var(--warm); }
+  .card { background:#fff; border:1px solid #ece6d8; border-radius:14px; padding:20px 22px; }
+  .faq h3 { font-size:16px; margin:18px 0 4px; }
+  .faq p { margin:0; color:#3c3a35; }
+  p, li { color:#3c3a35; }
+  .eff { color:var(--muted); font-size:14px; margin-top:4px; }
+  footer { margin-top:52px; color:var(--muted); font-size:14px; }
+  svg { flex:0 0 auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="langbar"><a href="index.html">English</a><a href="ko.html">한국어</a><a href="ja.html" class="active">日本語</a><a href="zh-hans.html">简体中文</a><a href="zh-hant.html">繁體中文</a></nav>
+  <header>
+    <svg width="56" height="56" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="50" cy="25" r="8.25" fill="#b7522e"/>
+      <rect x="38.25" y="42.25" width="23.5" height="7.5" rx="2" fill="#b7522e"/>
+      <rect x="43.25" y="45" width="13.5" height="30" rx="3" fill="#b7522e"/>
+      <rect x="34" y="70.25" width="32" height="8.5" rx="2.5" fill="#b7522e"/>
+    </svg>
+    <h1>Inkholt</h1>
+  </header>
+  <p class="tag">小さく集中したメモのための、静かなMarkdownメモ帳。</p>
+
+  <h2>お問い合わせ・サポート</h2>
+  <div class="card">バグ報告や機能のご要望はGitHubのIssueへ: <a href="https://github.com/cs20030834/inkholt-support/issues">github.com/cs20030834/inkholt-support/issues</a>。その他のお問い合わせは <a href="mailto:queue1.dev@gmail.com">queue1.dev@gmail.com</a> までメールください。</div>
+
+  <h2>よくある質問</h2>
+  <div class="faq">
+    <h3>iCloud同期はどのように動作しますか？</h3>
+    <p>メモはご自身のiCloudアカウントに保存され、同じAppleアカウントでサインインしたMac間で自動的に同期されます。メモを小さく（約5,000文字を推奨）保つと、すばやく確実に同期されます。</p>
+    <h3>無料版とInkholt Proの違いは？</h3>
+    <p>Inkholtは書類20件まで無料です。Inkholt Proは一度の購入で書類を無制限にします。既存のメモが削除・非表示になることはなく、制限は新規作成のみを停止します。</p>
+    <h3>別のMacでInkholt Proを購入しました。復元するには？</h3>
+    <p>アップグレード画面で「購入を復元」を選んでください。購入時と同じAppleアカウントでサインインしている必要があります。</p>
+    <h3>私のデータはどこにあり、安全ですか？</h3>
+    <p>メモはご自身のiCloud（Appleの非公開CloudKitデータベース）にのみ保存されます。開発者が閲覧・収集・送信することはできません。<a href="privacy-ja.html">プライバシーポリシー</a>をご覧ください。</p>
+    <h3>メモをエクスポートできますか？</h3>
+    <p>はい — ファイルメニューからHTML、オフラインHTML、Markdown、PDFに書き出せます。</p>
+  </div>
+
+  <footer><a href="privacy-ja.html">プライバシーポリシー</a> · © 2026 KYUEON KANG</footer>
+</div>
+</body>
+</html>
