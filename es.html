@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkholt Markdown — Soporte</title>
+<style>
+  :root { --paper:#faf6ec; --ink:#1f1d1a; --warm:#b7522e; --muted:#6b6862; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple SD Gothic Neo","Hiragino Sans","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+         -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:680px; margin:0 auto; padding:40px 24px 96px; }
+  .langbar { display:flex; flex-wrap:wrap; gap:14px; font-size:14px; margin-bottom:30px; padding-bottom:14px; border-bottom:1px solid #ece6d8; }
+  .langbar a { color:var(--muted); text-decoration:none; }
+  .langbar a.active { color:var(--warm); font-weight:600; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  h1 { font-size:28px; margin:0; letter-spacing:-0.01em; }
+  .tag { color:var(--muted); margin:0 0 36px; font-size:17px; }
+  h2 { font-size:19px; margin:38px 0 12px; }
+  a { color:var(--warm); }
+  .card { background:#fff; border:1px solid #ece6d8; border-radius:14px; padding:20px 22px; }
+  .faq h3 { font-size:16px; margin:18px 0 4px; }
+  .faq p { margin:0; color:#3c3a35; }
+  p, li { color:#3c3a35; }
+  .eff { color:var(--muted); font-size:14px; margin-top:4px; }
+  footer { margin-top:52px; color:var(--muted); font-size:14px; }
+  svg { flex:0 0 auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="langbar"><a href="index.html">English</a><a href="ko.html">한국어</a><a href="ja.html">日本語</a><a href="zh-hans.html">简体中文</a><a href="zh-hant.html">繁體中文</a><a href="de.html">Deutsch</a><a href="fr.html">Français</a><a href="es.html" class="active">Español</a><a href="pt-br.html">Português (BR)</a><a href="it.html">Italiano</a></nav>
+  <header>
+    <svg width="56" height="56" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="50" cy="25" r="8.25" fill="#b7522e"/>
+      <rect x="38.25" y="42.25" width="23.5" height="7.5" rx="2" fill="#b7522e"/>
+      <rect x="43.25" y="45" width="13.5" height="30" rx="3" fill="#b7522e"/>
+      <rect x="34" y="70.25" width="32" height="8.5" rx="2.5" fill="#b7522e"/>
+    </svg>
+    <h1>Inkholt Markdown</h1>
+  </header>
+  <p class="tag">Un bloc de notas Markdown sereno para notas pequeñas y enfocadas.</p>
+
+  <h2>Contacto y soporte</h2>
+  <div class="card">¿Encontraste un error o tienes una sugerencia? Abre un issue en GitHub: <a href="https://github.com/cs20030834/inkholt-support/issues">github.com/cs20030834/inkholt-support/issues</a>. Para cualquier otra cosa, escribe a <a href="mailto:queue1.dev@gmail.com">queue1.dev@gmail.com</a>.</div>
+
+  <h2>Preguntas frecuentes</h2>
+  <div class="faq">
+    <h3>¿Cómo funciona la sincronización con iCloud?</h3>
+    <p>Tus notas se guardan en tu propia cuenta de iCloud y se sincronizan automáticamente entre los Mac con sesión iniciada en la misma cuenta de Apple. Mantener las notas pequeñas (una guía orientativa de unos 5.000 caracteres) ayuda a que se sincronicen rápido y de forma fiable.</p>
+    <h3>¿Qué es gratis y qué es Inkholt Pro?</h3>
+    <p>Inkholt es gratis hasta 20 documentos. Inkholt Pro es una compra única que desbloquea documentos ilimitados. Tus notas existentes nunca se eliminan ni se ocultan — el límite solo impide crear nuevas.</p>
+    <h3>Compré Inkholt Pro en otro Mac. ¿Cómo lo restauro?</h3>
+    <p>Abre la pantalla de mejora y elige «Restaurar compras». Asegúrate de haber iniciado sesión con la misma cuenta de Apple que usaste para comprar.</p>
+    <h3>¿Dónde están mis datos? ¿Son privados?</h3>
+    <p>Tus notas viven solo en tu propio iCloud (la base de datos privada de CloudKit de Apple). El desarrollador no puede verlas, recopilarlas ni transmitirlas. Consulta nuestra <a href="privacy-es.html">Política de privacidad</a>.</p>
+    <h3>¿Puedo exportar mis notas?</h3>
+    <p>Sí — exporta cualquier nota a HTML, HTML sin conexión, Markdown o PDF desde el menú Archivo.</p>
+  </div>
+
+  <footer><a href="privacy-es.html">Política de privacidad</a> · © 2026 Queue1Lab</footer>
+</div>
+</body>
+</html>
